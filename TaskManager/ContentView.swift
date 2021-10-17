@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Project
-//
-//  Created by Igor Zabiyaka on 17.10.2021.
-//
 
 import SwiftUI
 

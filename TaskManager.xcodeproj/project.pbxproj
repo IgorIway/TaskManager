@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D9927205271BCFB2001C35CE /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9927205271BCFB2001C35CE /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9927208271BCFB2001C35CE /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
 		D992720A271BCFB2001C35CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D992720C271BCFB3001C35CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		D99271FC271BCFB2001C35CE = {
 			isa = PBXGroup;
 			children = (
-				D9927207271BCFB2001C35CE /* Project */,
+				D9927207271BCFB2001C35CE /* TaskManager */,
 				D9927206271BCFB2001C35CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		D9927206271BCFB2001C35CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9927205271BCFB2001C35CE /* Project.app */,
+				D9927205271BCFB2001C35CE /* TaskManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9927207271BCFB2001C35CE /* Project */ = {
+		D9927207271BCFB2001C35CE /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
 				D9927208271BCFB2001C35CE /* ProjectApp.swift */,
@@ -56,7 +56,7 @@
 				D992720C271BCFB3001C35CE /* Assets.xcassets */,
 				D992720E271BCFB3001C35CE /* Preview Content */,
 			);
-			path = Project;
+			path = TaskManager;
 			sourceTree = "<group>";
 		};
 		D992720E271BCFB3001C35CE /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9927204271BCFB2001C35CE /* Project */ = {
+		D9927204271BCFB2001C35CE /* TaskManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9927213271BCFB3001C35CE /* Build configuration list for PBXNativeTarget "Project" */;
+			buildConfigurationList = D9927213271BCFB3001C35CE /* Build configuration list for PBXNativeTarget "TaskManager" */;
 			buildPhases = (
 				D9927201271BCFB2001C35CE /* Sources */,
 				D9927202271BCFB2001C35CE /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Project;
+			name = TaskManager;
 			productName = Project;
-			productReference = D9927205271BCFB2001C35CE /* Project.app */;
+			productReference = D9927205271BCFB2001C35CE /* TaskManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D9927200271BCFB2001C35CE /* Build configuration list for PBXProject "Project" */;
+			buildConfigurationList = D9927200271BCFB2001C35CE /* Build configuration list for PBXProject "TaskManager" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9927204271BCFB2001C35CE /* Project */,
+				D9927204271BCFB2001C35CE /* TaskManager */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TaskManager\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TaskManager\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9927200271BCFB2001C35CE /* Build configuration list for PBXProject "Project" */ = {
+		D9927200271BCFB2001C35CE /* Build configuration list for PBXProject "TaskManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9927211271BCFB3001C35CE /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9927213271BCFB3001C35CE /* Build configuration list for PBXNativeTarget "Project" */ = {
+		D9927213271BCFB3001C35CE /* Build configuration list for PBXNativeTarget "TaskManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9927214271BCFB3001C35CE /* Debug */,
